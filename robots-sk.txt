@@ -1,0 +1,36 @@
+Sitemap: https://knihobot.sk/sitemap.xml
+User-agent: *
+Disallow: /admin/
+Disallow: /objednavka/
+Disallow: /404/
+Disallow: /kosik
+Disallow: /komisia/
+Disallow: /ajax/relatedProducts
+#internal_search
+Disallow: /hladanie?q=
+Disallow: /strazca-dostupnosti
+Allow: /strazca-dostupnosti$
+Disallow: /hladanie?ext=
+Allow: /hladanie?ext=1&author
+#sorting
+Disallow: /*?orderby=
+#filters in /g/
+Disallow: /g/*?=n
+#filters in /b/
+Disallow: /b/*?=n
+#filters in /m/
+Disallow: /m/*?=n
+#filters in listing
+Disallow: /p/*.
+Disallow: /p/*price/
+Disallow: /p/*condition/
+#filters multiselect
+Disallow: /p/*_*
+User-agent: PetalBot
+Disallow: /
+User-agent: BLEXBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /
